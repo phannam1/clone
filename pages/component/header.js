@@ -16,7 +16,7 @@ export default function header() {
             </div>
             <div className='h-16 border-b w-full flex items-center justify-between'>
                 <div>
-                    <img className='h-auto w-32 max-h-14' src='/images/home.png' />
+                    <img className='h-auto w-34 max-h-14' src='/images/home.png' />
                 </div>
                 <ul className='inline-flex text-sm'>
                     <li>
