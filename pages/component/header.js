@@ -1,4 +1,6 @@
 import React from 'react'
+import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline'
+import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt'
 export default function header() {
     return (
         <div className='h-24'>
@@ -33,13 +35,45 @@ export default function header() {
                 </div>
 
             </div>
-            <div className='h-16 border-b w-full flex items-center justify-between'>
+            <div className='h-16  w-full flex items-center justify-between'>
                 <div>
                     <img className='h-auto w-34 max-h-14' src='/images/home.png' />
                 </div>
                 <ul className='inline-flex text-sm'>
                     <li>
                         <a className='px-6' href='#'>Product</a>
+                        <div className='absolute justify-around flex items-stretch  py-6 my-5 shadow  rounded-b-md'>
+                            <div >
+                                <div className='font-bold border-b border-gray-100 pb-6 pr-20 mx-16' >
+                                    Channels
+                                </div>
+                                <ul className='pt-6 pr-20 mx-16'>
+                                    <li >
+                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
+                                            <ChatBubbleOutlineIcon className='text-blue-500 mr-2' />
+                                            <div>
+                                                <div className='font-medium'>Messaging</div>
+                                                <p className='text-xs mt-1'> Send and receive text messages</p>
+                                            </div>
+                                        </a>
+                                        <div className='ml-8 mt-1'>
+                                            <a className='text-xs text-blue-500 underline' href='#'>SMS <ArrowRightAltIcon fontSize='inherit'/> </a> 
+                                            <a className='text-xs text-blue-500 underline' href='#'>WhatsApp <ArrowRightAltIcon fontSize='inherit'/> </a> 
+                                            <a className='text-xs text-blue-500 underline' href='#'>Chat  <ArrowRightAltIcon fontSize='inherit'/></a> 
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div >
+                                <div className='border-b border-gray-100 pb-6 pr-20 mr-16 font-bold'>Applications</div>
+                                <ul></ul>
+                            </div>
+                            <div >
+                                <div className='border-b border-gray-100 pb-6 pr-20 mr-16 font-bold'>Connectivity</div>
+                                <ul></ul>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <a className='px-6' href='#'>Solutions</a>
