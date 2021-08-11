@@ -5,11 +5,30 @@ export default function header() {
             <div className='w-full'>
                 <div className='text-black bg-gray-100 h-6 text-xs pt-4 pb-5  font-sans flex items-center justify-between'>
                     <div></div>
-                    <div className='text-center uppercase tracking-widest'>TWILIO ACQUIRES ZIPWHIP - LEARN MORE</div>
-                    <ul className='flex items-center'>
-                        <div className='px-4 border-r '><img className='h-6 w-6 ' src='/images/english.png' /></div>
-                        <li className='px-4 uppercase tracking-widest'>Support</li>
-                        <li className='mr-4 uppercase tracking-widest'><a href='#'>Login</a></li>
+                    <a href='#' className='text-center uppercase tracking-widest'>TWILIO ACQUIRES ZIPWHIP - LEARN MORE</a>
+                    <ul className='flex items-center '>
+                        <div className=' mr-2 px-4 border-r group'>
+                            <img className='h-6 w-6 ' src='/images/english.png' />
+                            <div className='opacity-0  group-hover:opacity-100    transition-all duration-500 items-center' >
+                                <ul className='absolute bg-red-500  rounded pb-2 text-gray-200 mt-1 mr-3 ' >
+                                    <li className=' flex items-center hover:text-gray-300 px-2 py-3'><a href='#'>Vietnamese</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <li className='group'>
+                            <a className='uppercase relative ' href='#'>Support</a>
+                            <div className='opacity-0  group-hover:opacity-100  transition-all duration-500'>
+                                <ul className='bg-red-500 px-4  rounded absolute text-gray-200 text-center' >
+                                    <li className=' flex  hover:text-gray-300 rounded py-1 px-1'><a href='#'>Help Center</a></li>
+                                    <li className='my-2 flex  hover:text-gray-300 rounded py-1 px-1'><a href='#'>Task to Support</a></li>
+                                    <li className='my-2 flex  hover:text-gray-300 rounded py-1'><a href='#'>Tranning</a></li>
+                                    <hr />
+                                    <li className='my-2 flex  hover:text-gray-300 rounded py-1'><a href='#'>Support Plans</a></li>
+                                    <li className='my-1 flex  hover:text-gray-300 rounded py-1'><a href='#'>Partner Solutions</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li className='mx-4 uppercase tracking-widest'><a href='#'>Login</a></li>
                     </ul>
                 </div>
 
