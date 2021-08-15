@@ -60,7 +60,7 @@ export default function header() {
                                 <div className='font-bold border-b border-gray-100 pb-6  mx-16' >
                                     Channels
                                 </div>
-                                <ul className='pt-6  mx-16 max-w-xs'>
+                                <ul className='pt-6  mx-16 max-w-md'>
                                     <li >
                                         <a className='hover:text-blue-500 hover:underline  flex' href='#'>
                                             <ChatBubbleOutlineIcon className='text-blue-500 mr-2' />
@@ -208,7 +208,7 @@ export default function header() {
                                                 <div className='font-medium'>Elastic SIP Trunking
 
                                                 </div>
-                                                
+
                                             </div>
                                         </a>
                                         <p className='text-xs ml-8'> Deploy SIP trunks globally in minutes</p>
@@ -222,7 +222,7 @@ export default function header() {
 
 
                                                 </div>
-                                               
+
                                             </div>
                                         </a>
                                         <p className='text-xs ml-8'> Access local, national, and toll-free phone numbers</p>
@@ -234,7 +234,7 @@ export default function header() {
                                                 <div className='font-medium'>Short Codes
 
                                                 </div>
-                                                
+
                                             </div>
                                         </a>
                                         <p className='text-xs ml-8'> Send text and picture messages at scale</p>
@@ -245,244 +245,235 @@ export default function header() {
                     </li>
                     <li className='group '>
                         <a className='px-6 hover:border-b-2 hover:border-blue-600 pb-5' href='#'>Solutions</a>
-                        <div className='absolute justify-around flex items-stretch   my-5 shadow -ml-96 rounded-b-md hidden md:group-hover:flex opacity-0 group-hover:opacity-100 '>
+                        <div className='absolute justify-around flex items-stretch   my-5 shadow -ml-80 rounded-b-md hidden md:group-hover:flex opacity-0 group-hover:opacity-100 '>
                             <div className='w-1/4 pb-6'>
                                 <div className='font-bold border-b border-gray-100 pt-6 pb-4 mx-8' >
-                                    Channels
+                                    By Department
                                 </div>
                                 <ul className='pt-6  mx-8 max-w-xs'>
                                     <li >
                                         <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <ChatBubbleOutlineIcon className='text-blue-500 mr-2' />
+
                                             <div>
-                                                <div className='font-medium'>Messaging</div>
+                                                <div className='font-medium'>Marketing
+                                                </div>
                                             </div>
                                         </a>
-                                        <p className='text-xs  ml-8'> Send and receive text messages</p>
-                                        <div className='ml-8 mt-1'>
-                                            <a className='text-xs text-blue-500 underline' href='#'>SMS <ArrowRightAltIcon fontSize='inherit' /> </a>
-                                            <a className='text-xs text-blue-500 underline' href='#'>WhatsApp <ArrowRightAltIcon fontSize='inherit' /> </a>
-                                            <a className='text-xs text-blue-500 underline' href='#'>Chat  <ArrowRightAltIcon fontSize='inherit' /></a>
+                                        <p className='text-xs  '> Keep customers engaged on any channel</p>
+
+                                    </li>
+                                    <li className='pt-8' >
+                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
+
+                                            <div>
+                                                <div className='font-medium'>Operations
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                        <p className='text-xs  '> Streamline workforce operations and customer fulfillment</p>
+                                        <div className=' mt-1'>
+                                            <a className='text-xs text-blue-500 underline' href='#'>
+                                                Alerts & Notifications  <ArrowRightAltIcon fontSize='inherit' /> </a>
+
+
+                                        </div>
+                                        <div className=' mt-1'>
+                                            <a className='text-xs text-blue-500 underline' href='#'>Identity & Verification <ArrowRightAltIcon fontSize='inherit' /> </a>
                                         </div>
                                     </li>
                                     <li className='pt-8' >
                                         <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <PhoneIcon className='text-blue-500 mr-2' />
-                                            <div>
-                                                <div className='font-medium'>Programmable Voice
-                                                </div>
 
-                                            </div>
-                                        </a>
-                                        <p className='text-xs  ml-8'> Make, receive, and monitor calls around the world</p>
-                                    </li>
-                                    <li className='pt-8' >
-                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <VideocamIcon className='text-blue-500 mr-2' />
                                             <div>
-                                                <div className='font-medium'>Video
-                                                </div>
-
-                                            </div>
-                                        </a>
-                                        <p className='text-xs  ml-8'> Build HD real-time video applications</p>
-                                    </li>
-                                    <li className='pt-8' >
-                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <WifiTetheringIcon className='text-blue-500 mr-2' />
-                                            <div>
-                                                <div className='font-medium'>Twilio Live</div>
-
-                                            </div>
-                                        </a>
-                                        <p className='text-xs ml-8'> Build interactive audio and video live streaming experiences</p>
-                                    </li>
-                                    <li className='pt-8'>
-                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <EmailIcon className='text-blue-500 mr-2' />
-                                            <div>
-                                                <div className='font-medium'>Email</div>
-
-                                            </div>
-                                        </a>
-                                        <p className='text-xs  ml-8'> Deliver email messages reliably at scale</p>
-                                    </li>
+                                                <div className='font-medium'>Customer Service
 
 
-                                </ul>
-                            </div>
-                            <div className='w-1/4 pb-6'>
-                                <div className='border-b border-gray-100 pt-6 pb-4  mr-8 font-bold'>Applications</div>
-                                <ul className='pt-6 max-w-xs '>
-                                    <li >
-                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <LandscapeIcon className='text-blue-500 mr-2' />
-                                            <div>
-                                                <div className='font-medium'>Twilio Flex
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <p className='text-xs  ml-8'> Build with the most flexible cloud contact center</p>
-                                    </li>
-                                    <li className='pt-8'>
-                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <AirplanemodeActiveIcon className='text-blue-500 mr-2' />
-                                            <div>
-                                                <div className='font-medium'>Marketing Campaigns
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <p className='text-xs  ml-8'> Create and manage email marketing campaigns</p>
-                                    </li>
-                                    <li className='pt-8'>
-                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <CategoryIcon className='text-blue-500 mr-2' />
-                                            <div>
-                                                <div className='font-medium'>Twilio Frontline
-                                                </div>
-
-                                            </div>
-                                        </a>
-                                        <p className='text-xs  ml-8'> Connect employees to customers securely from anywhere</p>
-                                    </li>
-                                    <li className='pt-8'>
-                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <AttachFileIcon className='text-blue-500 mr-2' />
-                                            <div>
-                                                <div className='font-medium'>Account Security
 
                                                 </div>
 
                                             </div>
                                         </a>
-                                        <p className='text-xs  ml-8'> Prevent sign up fraud, account takeovers, and protect transactions</p>
-                                        <div className='ml-8 mt-1'>
-                                            <a className='text-xs text-blue-500 underline' href='#'>Authy<ArrowRightAltIcon fontSize='inherit' /> </a>
-                                            <a className='text-xs text-blue-500 underline' href='#'>Verify <ArrowRightAltIcon fontSize='inherit' /> </a>
-                                            <a className='text-xs text-blue-500 underline' href='#'>Lookup  <ArrowRightAltIcon fontSize='inherit' /></a>
+                                        <p className='text-xs  '>Deliver personalized customer experiences at scale</p>
+                                        <div className=' mt-1'>
+                                            <a className='text-xs text-blue-500 underline' href='#'>
+
+                                                Contact Center  <ArrowRightAltIcon fontSize='inherit' /> </a>
+
+
+                                        </div>
+                                        <div className=' mt-1'>
+                                            <a className='text-xs text-blue-500 underline' href='#'>IVR & Bots<ArrowRightAltIcon fontSize='inherit' /> </a>
                                         </div>
                                     </li>
+
+                                </ul>
+                            </div>
+                            <div className='w-1/4 pb-6'>
+                                <div className='border-b border-gray-100 pt-6 pb-4  mr-8 font-bold'>By Industry</div>
+                                <ul className='pt-6 max-w-xs '>
+                                    <li >
+                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
+
+                                            <div>
+                                                <div className='font-medium'>Financial Services
+
+
+
+
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                    </li>
                                     <li className='pt-8'>
                                         <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <BubbleChartIcon className='text-blue-500 mr-2' />
+
                                             <div>
-                                                <div className='font-medium'>Twilio Segment
+                                                <div className='font-medium'>Retail
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                    </li>
+                                    <li className='pt-8'>
+                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
+
+                                            <div>
+                                                <div className='font-medium'>Hospitality
+                                                </div>
+
+                                            </div>
+                                        </a>
+
+                                    </li>
+                                    <li className='pt-8'>
+                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
+
+                                            <div>
+                                                <div className='font-medium'>Real Estate
 
                                                 </div>
 
                                             </div>
                                         </a>
-                                        <p className='text-xs  ml-8'>Unify your customer data to power personalized engagement</p>
+
+                                    </li>
+                                    <li className='pt-8'>
+                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
+
+                                            <div>
+                                                <div className='font-medium'>Healthcare
+
+                                                </div>
+
+                                            </div>
+                                        </a>
+
                                     </li>
                                 </ul>
                             </div>
                             <div className='w-1/4 pb-6'>
-                                <div className='border-b border-gray-100 pt-6 pb-4 mr-8 font-bold'>Connectivity</div>
+                                <div className='border-b border-gray-100 pt-6 pb-4 mr-8 font-bold'>By Business</div>
                                 <ul className='pt-6 max-w-xs '>
-                                    <li >
+                                    <li className='pt-8'>
                                         <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <PhonelinkRingIcon className='text-blue-500 mr-2' />
+
+                                            <div>
+                                                <div className='font-medium'>Enterprise
+
+
+                                                </div>
+
+                                            </div>
+                                        </a>
+
+                                    </li>
+                                    <li className='pt-8'>
+                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
+
+                                            <div>
+                                                <div className='font-medium'>Startup
+
+                                                </div>
+
+                                            </div>
+                                        </a>
+
+                                    </li>
+                                    <li className='pt-8'>
+                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
+
                                             <div>
                                                 <div className='font-medium'>
-                                                    Internet of Things
+                                                    Nonprofit
+
                                                 </div>
 
                                             </div>
                                         </a>
-                                        <p className='text-xs ml-8'> Connect IoT devices to global cellular networks</p>
-                                    </li>
-                                    <li className='pt-8'>
-                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <DialerSipIcon className='text-blue-500 mr-2' />
-                                            <div>
-                                                <div className='font-medium'>Elastic SIP Trunking
 
-                                                </div>
-                                                
-                                            </div>
-                                        </a>
-                                        <p className='text-xs ml-8'> Deploy SIP trunks globally in minutes</p>
-                                    </li>
-                                    <li className='pt-8'>
-                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <AcUnitIcon className='text-blue-500 mr-2' />
-                                            <div>
-                                                <div className='font-medium'>Phone Numbers
-
-
-
-                                                </div>
-                                               
-                                            </div>
-                                        </a>
-                                        <p className='text-xs ml-8'> Access local, national, and toll-free phone numbers</p>
-                                    </li>
-                                    <li className='pt-8'>
-                                        <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <TextsmsIcon className='text-blue-500 mr-2' />
-                                            <div>
-                                                <div className='font-medium'>Short Codes
-
-                                                </div>
-                                                
-                                            </div>
-                                        </a>
-                                        <p className='text-xs ml-8'> Send text and picture messages at scale</p>
                                     </li>
                                 </ul>
                             </div>
                             <div className='w-1/4 bg-gray-200 pb-6'>
-                                <div className=' ml-10 border-b border-gray-100 pt-6 pb-4  mr-8 font-bold'>Connectivity</div>
-                                <ul className='pt-6 max-w-xs ml-10 '>
+                                <div className=' ml-10 border-b border-gray-100 pt-6 pb-4  mr-16 font-bold'>Resources</div>
+                                <ul className='pt-6 max-w-md ml-10 mr-10 '>
                                     <li >
                                         <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <PhonelinkRingIcon className='text-blue-500 mr-2' />
+
                                             <div>
                                                 <div className='font-medium'>
-                                                    Internet of Things
+                                                    The Current
+
                                                 </div>
 
                                             </div>
                                         </a>
-                                        <p className='text-xs ml-8'> Connect IoT devices to global cellular networks</p>
+                                        <p className='text-xs '> Discover how the world’s leading teams create and nurture meaningful customer relationships
+                                        </p>
                                     </li>
                                     <li className='pt-8'>
                                         <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <DialerSipIcon className='text-blue-500 mr-2' />
+
                                             <div>
-                                                <div className='font-medium'>Elastic SIP Trunking
+                                                <div className='font-medium'>Customer Stories
+
 
                                                 </div>
-                                                
+
                                             </div>
                                         </a>
-                                        <p className='text-xs ml-8'> Deploy SIP trunks globally in minutes</p>
+                                        <p className='text-xs '> See what customers are building with Twilio</p>
                                     </li>
                                     <li className='pt-8'>
                                         <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <AcUnitIcon className='text-blue-500 mr-2' />
+
                                             <div>
-                                                <div className='font-medium'>Phone Numbers
+                                                <div className='font-medium'>COVID-19 Field Guide
+
+
 
 
 
                                                 </div>
-                                               
+
                                             </div>
                                         </a>
-                                        <p className='text-xs ml-8'> Access local, national, and toll-free phone numbers</p>
+                                        <p className='text-xs '> Build communication solutions to respond to COVID-19</p>
                                     </li>
                                     <li className='pt-8'>
                                         <a className='hover:text-blue-500 hover:underline  flex' href='#'>
-                                            <TextsmsIcon className='text-blue-500 mr-2' />
+
                                             <div>
-                                                <div className='font-medium'>Short Codes
+                                                <div className='font-medium'>
+                                                    A2P 10DLC
 
                                                 </div>
-                                                
+
                                             </div>
                                         </a>
-                                        <p className='text-xs ml-8'> Send text and picture messages at scale</p>
+                                        <p className='text-xs '> Prepare for the new A2P 10DLC requirements</p>
                                     </li>
                                 </ul>
                             </div>
