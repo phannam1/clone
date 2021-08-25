@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       display: ['group-hover'],
       borderWidth: ['hover', 'focus'],
-      borderColor:['hover', 'focus']
+      borderColor:['hover', 'focus'],
+      borderRadius: ['hover', 'focus'],
     },
   },
   plugins: [],
