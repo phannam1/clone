@@ -7,7 +7,7 @@ import Body from './home'
 
 export default function Home() {
   return (
-    <div className='overflow-y-scroll'>
+    <div >
       <div className='container max-w-screen-2xl m-auto  '>
         <Head>
           <title >Tin tức tổng hợp - giải trí - xã hội</title>
